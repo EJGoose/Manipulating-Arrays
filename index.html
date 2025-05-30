@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manipulating Arrays</title>
+</head>
+<body onload="showArray()">
+    <h1>Learning to Utilise Arrays</h1>
+    <div>
+        <h2>Current Array Contents:</h2>
+        <ul id="arrayDisplay">
+            
+        </ul>
+    </div>
+    <div>
+        <br>
+        <label for="arrayValue">Add to the Array</label>
+        <input type="text" id="arrayValue"><br>
+        <br>
+        <button onclick="addElement()">Add Element</button>
+        <button onclick="removeLast()">Remove Last</button>
+        <button onclick="removeFirst()">Remove First</button>
+        <button onclick="addFirstElement()"> Add First Element</button>
+        <br><br><br>
+        <label for="indexValue">Adjust Array Index</label>
+        <input type="number" id="indexValue"><br><br>
+        <button onclick="spliceArray()">Remove item at specific index</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
